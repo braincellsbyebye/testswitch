@@ -1,12 +1,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<br>
+<br>
+<br>
+<br>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">
+                <div style="background-color: #0047AB; color: white" class="card-header">
                     <h4>AquaFlask Inventory Management System
-                        <a href="{{ url('flasks') }}" class="btn btn-danger float-end">Back</a>
+                        <a href="{{ url('flasks') }}" style="margin-left: 540px" class="btn btn-danger float-end">Back</a>
                     </h4>
                 </div>
                 <div class="card-body">

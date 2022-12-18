@@ -73,4 +73,11 @@ class FlaskController extends Controller
         $af->delete();
         return redirect()->back()->with('message','AquaFlask Deleted Successfully');
     }
+    public function search()
+    {
+        $stxt = $_GET['query'];
+        $af = Flask::where('name', 'LIKE', '%'.$stxt.'%')->get();
+
+        return view('flask.search', compact('af'));
+    }
 }

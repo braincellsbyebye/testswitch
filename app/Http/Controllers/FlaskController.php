@@ -32,7 +32,8 @@ class FlaskController extends Controller
             $af->image = $filename;
         }
         $af->save();
-        return redirect()->back()->with('message','AquaFlask Added Successfully');
+        return redirect('/flasks');
+        
     }
     public function edit($id)
     {
@@ -59,7 +60,7 @@ class FlaskController extends Controller
             $af->image = $filename;
         }
         $af->update();
-        return redirect()->back()->with('message','AquaFlask Updated Successfully');
+        return redirect('/flasks');
 
     }
     public function destroy($id)

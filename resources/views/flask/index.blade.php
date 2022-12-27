@@ -31,7 +31,7 @@
                                 <div style="text-align: center; align-items: center; display: flex;" class="card">
                                     <img src="{{ asset('uploads/aquaflasks/'.$item->image) }}" width="200px" height="200px" alt="Image">
                                     <p style="width: 200px">Name: {{ $item->name }} Ounces: {{ $item->oz }}</p>
-                                    <p style="margin-top: -18px">Price: {{ $item->price }}$</p>
+                                    <p style="margin-top: -18px">Price: {{ $item->price }}PHP</p>
                                     <a href="{{ url('edit/'.$item->id) }}" style="width: 75px; margin-right: 125px" class="btn btn-primary btn-sm">Edit</a>
                                     <form action="{{ url('delete/'.$item->id) }}" method="POST" >
                                         @csrf

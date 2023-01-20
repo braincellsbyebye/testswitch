@@ -3,11 +3,6 @@
 <br>
 <br>
 <br>
-<style>
-    p{
-        font-family: 'Arapey';
-    }
-</style>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
